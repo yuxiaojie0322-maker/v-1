@@ -1,0 +1,23 @@
+# 敏感信息：账号密码，切勿推送到公开仓库
+config.json
+
+# 浏览器登录态（含 cookies/token）
+.profile/
+session.json
+
+# 调试快照与日志
+probe_*.txt
+*.png
+renew.log
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+# 本地代理节点配置（含节点凭据，切勿公开）
+hk_tuic_singbox.json
+pl_hy2_singbox.json
+singbox.log
+singbox_hy2.log
+run_local.sh
+singbox_local.log
